@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <link rel="stylesheet" href="homepage.css">  
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <head>
+    <title>stock homepage</title>
+    </head>
+    <body >
+        <form >
+            <label class="label" for="txt-search">請搜尋股市</label>
+            <input class="input" type="text" id="txt-search" name="search"/>
+            <div class="login" >
+            <button  class="btn-submit" onclick="location.href='stock.html'" type="button" >Log In</button>
+            <button onclick="location.href='register.html'" type="button" >Sign Up</button>
+            </div>
+        </form>
+        <div  style="text-align:center" >
+           <h2>
+               熱門股市
+           </h2>
+        </div>
+       <div class="w3-row ">
+            <div class="card w3-col s4 w3-pale-red">
+                <h1>台積</h1>
+                <div id="chart" class="chartright" ></div>
+                <p>代號：2330</p><h2>590.0</h2><p>+1.37%</p><p>2330上市</p>
+                
+            </div>
+            <div class="card w3-col s4 w3-khaki">
+                <h1>佳凌</h1>
+                <div id="chart2" class="chartright" ></div>
+                <p>代號：1234</p><h2>190.0</h2><p>+2.37%</p><p>1922上市</p>
+            </div>
+            <div class="card w3-col s4 w3-pale-red">
+                <h1>威致</h1>
+                <div id="chart3" class="chartright" ></div>
+                <p>代號：3330</p><h2>5190.0</h2><p>+1.97%</p><p>2130上市</p>
+            </div>
+            <div class="card w3-col s4 w3-khaki">
+                <h1>雃博</h1>
+                <div id="chart4" class="chartright" ></div>
+                <p>代號：1130</p><h2>332.0</h2><p>+1.22%</p><p>1110上市</p>
+            </div>
+            <div class="card w3-col s4 w3-pale-red">
+                <h1>聯亞</h1>
+                <div id="chart5" class="chartright" ></div>
+                <p>代號：1293</p><h2>990.0</h2><p>+1.17%</p><p>3230上市</p>
+            </div>
+            <div class="card w3-col s4 w3-khaki">
+                <h1>長榮</h1>
+                <div id="chart6" class="chartright" ></div>
+                <p>代號：230</p><h2>1230.0</h2><p>+11.37%</p><p>930上市</p>
+            </div>
+        </div>
+    </body>
+    <script src="https://code.highcharts.com/stock/highstock.js" ></script>
+    <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+    <script src="highchart.js"></script>
+    <script src="highchart2.js"></script>
+    <script src="highchart3.js"></script>
+    <script src="highchart4.js"></script>
+    <script src="highchart5.js"></script>
+    <script src="highchart6.js"></script>
+</html>
